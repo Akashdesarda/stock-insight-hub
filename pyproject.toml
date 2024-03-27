@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "stock-insight"
+version = "0.1.0"
+description = "This repository aims to develop a platform to run custom strategies to gain insight and perform analysis to choose best performing stock for investing"
+authors = ["Akash Desarda <desardaakash.gmail.com>"]
+license = "MIT License"
+readme = "README.md"
+packages = [{ include = "stock_insight" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yfinance = "^0.2.37"
+pandas = "^2.2.1"
+loguru = "^0.7.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.1.1"
+ipython = "^8.22.2"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

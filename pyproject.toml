@@ -6,6 +6,7 @@ authors = ["Akash Desarda <desardaakash.gmail.com>"]
 license = "MIT License"
 readme = "README.md"
 packages = [{ include = "stock_insight" }]
+include = [{ path = "tests" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
